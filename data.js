@@ -30,6 +30,16 @@ window.SITE = {
      image: مسار صورة (مثلاً "img/sales.png") أو سيبه فاضي
      github / live: لينكات، سيبهم "" لو مش موجودين */
   projects: [
+     {
+  tool: "Excel",
+  title: { en: "Sales Data Cleaning", ar: "تنظيف بيانات المبيعات" },
+  summary: {
+    en: "Took a broken sales file and cleaned it with Power Query in Excel into a tidy, consistent table ready for analysis.",
+    ar: "أخدت ملف مبيعات بايظ ونضفته بـ Power Query في Excel لحد ما بقى جدول نضيف ومتناسق جاهز للتحليل."
+  },
+  tags: ["Power Query", "Data cleaning"],
+ image: "", github: "https://github.com/اسم-حسابك/portfolio/blob/main/sales-data-cleaning.xlsx", live: ""
+},
     {
       tool: "Excel",
       title: { en: "Sales Performance Dashboard", ar: "داشبورد أداء المبيعات" },
