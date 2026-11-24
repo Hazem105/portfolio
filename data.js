@@ -34,8 +34,8 @@ window.SITE = {
   tool: "Excel",
   title: { en: "Sales Data Cleaning", ar: "تنظيف بيانات المبيعات" },
   summary: {
-    en: "Took a broken sales file and cleaned it with Power Query in Excel into a tidy, consistent table ready for analysis.",
-    ar: "أخدت ملف مبيعات بايظ ونضفته بـ Power Query في Excel لحد ما بقى جدول نضيف ومتناسق جاهز للتحليل."
+    en: "Took a broken sales export with 21 fields (orders, dates, shipping, customers, regions, products, sales, quantity, discount and profit) and cleaned it with Power Query in Excel into a consistent, analysis-ready table.",
+ar: "أخدت ملف مبيعات بايظ فيه 21 عمود (طلبات وتواريخ وشحن وعملاء ومناطق ومنتجات ومبيعات وكمية وخصم وربح) ونضفته بـ Power Query في Excel لحد ما بقى جدول متناسق وجاهز للتحليل."
   },
   tags: ["Power Query", "Data cleaning"],
 image: "sales-cleaning.png.png", github: "https://github.com/Hazem105/portfolio/blob/main/sales-data-cleaning.xlsx.xlsx", live: ""},
