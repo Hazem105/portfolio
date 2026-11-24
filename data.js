@@ -38,8 +38,7 @@ window.SITE = {
     ar: "أخدت ملف مبيعات بايظ ونضفته بـ Power Query في Excel لحد ما بقى جدول نضيف ومتناسق جاهز للتحليل."
   },
   tags: ["Power Query", "Data cleaning"],
-image: "", github: "https://github.com/Hazem105/portfolio/blob/main/sales-data-cleaning.xlsx.xlsx", live: ""
-},
+image: "sales-cleaning.png.png", github: "https://github.com/Hazem105/portfolio/blob/main/sales-data-cleaning.xlsx.xlsx", live: ""},
     {
       tool: "Excel",
       title: { en: "Sales Performance Dashboard", ar: "داشبورد أداء المبيعات" },
