@@ -1,11 +1,8 @@
-/* ============================================================
-   data.js — الملف الوحيد اللي بتعدّل فيه محتوى الموقع
-   Edit only this file to change your name, bio, projects, links.
-   Each text has two versions: en (English) and ar (Arabic).
-   ============================================================ */
+/* data.js — الملف الوحيد اللي بتعدّل فيه محتوى الموقع.
+   كل نص له نسختين: en إنجليزي وar عربي. */
 window.SITE = {
-  name: { en: "Hazem Ali", ar: " حازم على" },              // ضيف اسمك الكامل هنا
-  role: { en: "Data Analyst & BI Specialist", ar: " محلل بيانات وأخصائي ذكاء أعمال" },
+  name: { en: "Hazem Ali", ar: "حازم على" },
+  role: { en: "Data Analyst & BI Specialist", ar: "محلل بيانات وأخصائي ذكاء أعمال" },
   headline: {
     en: "I turn raw data into decisions people can act on.",
     ar: "بحوّل البيانات الخام لقرارات تتنفّذ."
@@ -26,46 +23,28 @@ window.SITE = {
     { name: "Excel",    use: { en: "Pivot tables, dashboards, KPIs",        ar: "Pivot tables وداشبوردات وKPIs" } },
     { name: "Power BI", use: { en: "Data models, DAX, interactive reports", ar: "نماذج بيانات وDAX وتقارير تفاعلية" } }
   ],
-  /* tool لازم يكون واحد من: SQL / Python / Excel / Power BI
-     image: مسار صورة (مثلاً "img/sales.png") أو سيبه فاضي
-     github / live: لينكات، سيبهم "" لو مش موجودين */
   projects: [
-     {
-  tool: "Excel",
-  title: { en: "Sales Dashboard", ar: "داشبورد المبيعات" },
-  summary: {
-    en: "Cleaned and prepared a sales dataset, built pivot tables and pivot charts from it, and combined them into a sales dashboard.",
-    ar: "نضفت بيانات مبيعات وجهزتها، وعملت منها Pivot tables وPivot charts، وجمعتهم في داشبورد للمبيعات."
-  },
-  tags: ["Pivot tables", "Pivot charts", "Dashboard"],
-  image: "", github: "", live: ""
-},
-     {
-  tool: "Excel",
-  title: { en: "Sales Data Cleaning", ar: "تنظيف بيانات المبيعات" },
-  summary: {
-    en: "Took a broken sales export with 21 fields (orders, dates, shipping, customers, regions, products, sales, quantity, discount and profit) and cleaned it with Power Query in Excel into a consistent, analysis-ready table.",
-ar: "أخدت ملف مبيعات بايظ فيه 21 عمود (طلبات وتواريخ وشحن وعملاء ومناطق ومنتجات ومبيعات وكمية وخصم وربح) ونضفته بـ Power Query في Excel لحد ما بقى جدول متناسق وجاهز للتحليل."
-  },
-  tags: ["Power Query", "Data cleaning"],
-image: "sales-cleaning.png.png", github: "https://github.com/Hazem105/portfolio/blob/main/sales-data-cleaning.xlsx.xlsx", live: ""},
     {
       tool: "Excel",
-      title: { en: "Sales Performance Dashboard", ar: "داشبورد أداء المبيعات" },
+      title: { en: "Sales Dashboard", ar: "داشبورد المبيعات" },
       summary: {
-        {
-  tool: "Excel",
-  title: { en: "Sales Dashboard", ar: "داشبورد المبيعات" },
-  summary: {
-    en: "Cleaned and prepared a sales dataset, built pivot tables and pivot charts from it, and combined them into a sales dashboard.",
-    ar: "نضفت بيانات مبيعات وجهزتها، وعملت منها Pivot tables وPivot charts، وجمعتهم في داشبورد للمبيعات."
-  },
-  tags: ["Pivot tables", "Pivot charts", "Dashboard"],
-  image: "", github: "", live: ""
-},
+        en: "Cleaned and prepared a sales dataset, built pivot tables and pivot charts from it, and combined them into a sales dashboard.",
+        ar: "نضفت بيانات مبيعات وجهزتها، وعملت منها Pivot tables وPivot charts، وجمعتهم في داشبورد للمبيعات."
       },
-      tags: ["Pivot tables", "KPIs", "Charts"],
-      image: "", github: "", live: ""
+      tags: ["Pivot tables", "Pivot charts", "Dashboard"],
+      image: "sales-dashboard-img.png", github: "", live: ""
+    },
+    {
+      tool: "Excel",
+      title: { en: "Sales Data Cleaning", ar: "تنظيف بيانات المبيعات" },
+      summary: {
+        en: "Took a broken sales export with 21 fields (orders, dates, shipping, customers, regions, products, sales, quantity, discount and profit) and cleaned it with Power Query in Excel into a consistent, analysis-ready table.",
+        ar: "أخدت ملف مبيعات بايظ فيه 21 عمود (طلبات وتواريخ وشحن وعملاء ومناطق ومنتجات ومبيعات وكمية وخصم وربح) ونضفته بـ Power Query في Excel لحد ما بقى جدول متناسق وجاهز للتحليل."
+      },
+      tags: ["Power Query", "Data cleaning"],
+      image: "sales-cleaning.png.png",
+      github: "https://github.com/Hazem105/portfolio/blob/main/sales-data-cleaning.xlsx.xlsx",
+      live: ""
     },
     {
       tool: "Power BI",
@@ -89,6 +68,5 @@ image: "sales-cleaning.png.png", github: "https://github.com/Hazem105/portfolio/
       image: "", github: "", live: ""
     }
   ],
-  /* سيب أي لينك فاضي "" ومش هيظهر */
-  contact: { email: "ha9158392@gmail.com", github: "https://github.com/", linkedin: "", whatsapp: "201554954513" }
+  contact: { email: "ha9158392@gmail.com", github: "https://github.com/Hazem105", linkedin: "", whatsapp: "201554954513" }
 };
