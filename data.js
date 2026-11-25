@@ -53,8 +53,16 @@ image: "sales-cleaning.png.png", github: "https://github.com/Hazem105/portfolio/
       tool: "Excel",
       title: { en: "Sales Performance Dashboard", ar: "داشبورد أداء المبيعات" },
       summary: {
-        en: "2,000 orders analysed with 9 pivot tables and a KPI dashboard covering sales, profit and regional performance.",
-        ar: "تحليل 2,000 طلب بـ 9 Pivot tables وداشبورد مؤشرات أداء للمبيعات والربح والأداء حسب المنطقة."
+        {
+  tool: "Excel",
+  title: { en: "Sales Dashboard", ar: "داشبورد المبيعات" },
+  summary: {
+    en: "Cleaned and prepared a sales dataset, built pivot tables and pivot charts from it, and combined them into a sales dashboard.",
+    ar: "نضفت بيانات مبيعات وجهزتها، وعملت منها Pivot tables وPivot charts، وجمعتهم في داشبورد للمبيعات."
+  },
+  tags: ["Pivot tables", "Pivot charts", "Dashboard"],
+  image: "", github: "", live: ""
+},
       },
       tags: ["Pivot tables", "KPIs", "Charts"],
       image: "", github: "", live: ""
