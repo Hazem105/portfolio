@@ -32,6 +32,16 @@ window.SITE = {
   projects: [
      {
   tool: "Excel",
+  title: { en: "Sales Dashboard", ar: "داشبورد المبيعات" },
+  summary: {
+    en: "Cleaned and prepared a sales dataset, built pivot tables and pivot charts from it, and combined them into a sales dashboard.",
+    ar: "نضفت بيانات مبيعات وجهزتها، وعملت منها Pivot tables وPivot charts، وجمعتهم في داشبورد للمبيعات."
+  },
+  tags: ["Pivot tables", "Pivot charts", "Dashboard"],
+  image: "", github: "", live: ""
+},
+     {
+  tool: "Excel",
   title: { en: "Sales Data Cleaning", ar: "تنظيف بيانات المبيعات" },
   summary: {
     en: "Took a broken sales export with 21 fields (orders, dates, shipping, customers, regions, products, sales, quantity, discount and profit) and cleaned it with Power Query in Excel into a consistent, analysis-ready table.",
