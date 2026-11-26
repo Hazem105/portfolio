@@ -32,8 +32,8 @@ window.SITE = {
     ar: "حللت بيانات التسويق والمبيعات وعملت داشبورد في Excel من PivotCharts بتقارن الإيراد والربح والإنفاق الإعلاني بين خمس قنوات تسويق، والإيراد والربح والتحويلات بين العملاء الجداد والراجعين. Google Ads جابت أعلى ربح (22% من الإجمالي)، والعملاء الراجعين جابوا إيراد وربح أكتر من الجداد."
   },
   tags: ["PivotCharts", "Marketing channels", "Customer type", "Dashboard"],
-  image: "glow-go-salon-img.png",
-  github: "https://github.com/Hazem105/portfolio/blob/main/glow-go-salon.xlsx",
+   image: "Glow-%26-Go-Salon-img.png",
+  github: "https://github.com/Hazem105/portfolio/blob/main/Glow-%26-Go-Salon.xlsx",
   live: ""
 },
      {
