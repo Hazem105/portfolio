@@ -25,6 +25,18 @@ window.SITE = {
   ],
   projects: [
      {
+  tool: "Excel",
+  title: { en: "Sales Performance Dashboard", ar: "داشبورد أداء المبيعات" },
+  summary: {
+    en: "Built a sales dashboard in Excel from a table of 2,000 orders: 9 PivotTables, a PivotChart for each, and 10 KPI formulas. Total sales reached 11.83M; Assiut was the top region (2.53M, 21.4%), Monitor the top product, Sara the top sales rep, and March the best month.",
+    ar: "عملت داشبورد مبيعات في Excel من جدول فيه 2,000 أوردر: 9 PivotTables ورسمة PivotChart لكل واحد، و10 مؤشرات أداء بمعادلات. إجمالي المبيعات وصل 11.83M، وأعلى منطقة Assiut (2.53M بنسبة 21.4%)، وأعلى منتج Monitor، وأفضل مندوب Sara، وأفضل شهر مارس."
+  },
+  tags: ["PivotTables", "PivotCharts", "KPIs", "Dashboard"],
+  image: "sales-performence-img.png",
+  github: "https://github.com/Hazem105/portfolio/blob/main/sales%20performance.xlsx",
+  live: ""
+},
+     {
   tool: "Power BI",
   title: { en: "HR Performence", ar: "أداء الموارد البشرية" },
   summary: {
