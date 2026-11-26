@@ -26,6 +26,18 @@ window.SITE = {
   projects: [
      {
   tool: "Excel",
+  title: { en: "Glow & Go Salon Marketing Dashboard", ar: "داشبورد تسويق Glow & Go Salon" },
+  summary: {
+    en: "Analysed marketing and sales data and built an Excel dashboard of PivotCharts comparing revenue, profit and ad spend across five marketing channels, and revenue, profit and conversions for new versus returning customers. Google Ads delivered the highest profit (22% of the total), and returning customers brought in more revenue and profit than new ones.",
+    ar: "حللت بيانات التسويق والمبيعات وعملت داشبورد في Excel من PivotCharts بتقارن الإيراد والربح والإنفاق الإعلاني بين خمس قنوات تسويق، والإيراد والربح والتحويلات بين العملاء الجداد والراجعين. Google Ads جابت أعلى ربح (22% من الإجمالي)، والعملاء الراجعين جابوا إيراد وربح أكتر من الجداد."
+  },
+  tags: ["PivotCharts", "Marketing channels", "Customer type", "Dashboard"],
+  image: "glow-go-salon-img.png",
+  github: "https://github.com/Hazem105/portfolio/blob/main/glow-go-salon.xlsx",
+  live: ""
+},
+     {
+  tool: "Excel",
   title: { en: "FixGo Revenue and Conversions Dashboard", ar: "داشبورد إيرادات وتحويلات FixGo" },
   summary: {
     en: "Analysed the FixGo dataset and built a dashboard showing revenue by client type, and monthly revenue alongside conversions.",
