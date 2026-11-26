@@ -26,6 +26,18 @@ window.SITE = {
   projects: [
      {
   tool: "Excel",
+  title: { en: "Apocalypse Store Sales Analytics", ar: "تحليل مبيعات متجر مستلزمات النجاة" },
+  summary: {
+    en: "Sales analytics for a survival and disaster-preparedness store: 10 products and 74 orders (3,001 units) from January to mid-March 2022. Linked products to sales with XLOOKUP, then calculated revenue, cost, gross profit and gross margin. Revenue reached $87,945.09 with $43,212.43 gross profit (49.1% margin). Weatherproof Jacket was the top product by revenue and profit, January was the strongest month, and all data quality checks passed.",
+    ar: "تحليل مبيعات لمتجر مستلزمات النجاة والاستعداد للكوارث: 10 منتجات و74 طلب (3,001 وحدة) من يناير لحد منتصف مارس 2022. ربطت المنتجات بالمبيعات بـ XLOOKUP وحسبت الإيراد والتكلفة والربح الإجمالي وهامش الربح. الإيراد وصل $87,945.09 وبربح إجمالي $43,212.43 (هامش 49.1%). Weatherproof Jacket كان أفضل منتج في الإيراد والربح، ويناير كان أقوى شهر، وكل فحوصات جودة البيانات نجحت."
+  },
+  tags: ["XLOOKUP", "Gross margin", "Sales analytics"],
+  image: "apocalypse-store-img.png",
+  github: "https://github.com/Hazem105/portfolio/blob/main/apocalypse-store.xlsx",
+  live: ""
+},
+     {
+  tool: "Excel",
   title: { en: "Glow & Go Salon Marketing Dashboard", ar: "داشبورد تسويق Glow & Go Salon" },
   summary: {
     en: "Analysed marketing and sales data and built an Excel dashboard of PivotCharts comparing revenue, profit and ad spend across five marketing channels, and revenue, profit and conversions for new versus returning customers. Google Ads delivered the highest profit (22% of the total), and returning customers brought in more revenue and profit than new ones.",
