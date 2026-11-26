@@ -26,6 +26,18 @@ window.SITE = {
   projects: [
      {
   tool: "Excel",
+  title: { en: "FixGo Revenue and Conversions Dashboard", ar: "داشبورد إيرادات وتحويلات FixGo" },
+  summary: {
+    en: "Analysed the FixGo dataset and built a dashboard showing revenue by client type, and monthly revenue alongside conversions.",
+    ar: "حللت بيانات FixGo وعملت داشبورد بيعرض الإيراد حسب نوع العميل، والإيراد الشهري جنب التحويلات (Conversions)."
+  },
+  tags: ["Dashboard", "Revenue analysis", "Conversions"],
+  image: "fixgo-img.png",
+  github: "https://github.com/Hazem105/portfolio/blob/main/fixgo.xlsx",
+  live: ""
+},
+     {
+  tool: "Excel",
   title: { en: "Brew Bliss Cafe Analysis", ar: "تحليل بيانات Brew Bliss Cafe" },
   summary: {
     en: "Analysed revenue, marketing channels and customer behavior for Brew Bliss Cafe. Premium services generated the highest revenue, and some marketing channels outperformed others, which points to where marketing and service focus can improve.",
