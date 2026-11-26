@@ -25,6 +25,18 @@ window.SITE = {
   ],
   projects: [
      {
+  tool: "Power BI",
+  title: { en: "HR Performence", ar: "أداء الموارد البشرية" },
+  summary: {
+    en: "Cleaned a broken dataset with Power Query, built pivot tables, pivot charts and a dashboard in Excel, then loaded the data into Power BI, verified it again in Power Query, and built a Power BI dashboard.",
+    ar: "نضفت بيانات بايظة بـ Power Query، وعملت منها Pivot tables وPivot charts وداشبورد في Excel، وبعدين دخلت البيانات على Power BI وراجعتها تاني في Power Query وعملت داشبورد في Power BI."
+  },
+  tags: ["Power Query", "Power BI", "Pivot tables", "Dashboard"],
+  image: "hr-performence-img.jpg",
+  github: "https://github.com/Hazem105/portfolio/blob/main/hr-performence.pbix",
+  live: ""
+},
+     {
   tool: "Excel",
   title: { en: "Sales vs Target and YoY Analysis", ar: "تحليل المبيعات مقابل التارجت والنمو السنوي" },
   summary: {
