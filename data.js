@@ -26,6 +26,18 @@ window.SITE = {
   projects: [
      {
   tool: "Excel",
+  title: { en: "Brew Bliss Cafe Analysis", ar: "تحليل بيانات Brew Bliss Cafe" },
+  summary: {
+    en: "Analysed revenue, marketing channels and customer behavior for Brew Bliss Cafe. Premium services generated the highest revenue, and some marketing channels outperformed others, which points to where marketing and service focus can improve.",
+    ar: "حللت الإيرادات وقنوات التسويق وسلوك العملاء لكافيه Brew Bliss Cafe. الخدمات المميزة (Premium) جابت أعلى إيراد، وبعض قنوات التسويق كان أداؤها أفضل من غيرها، وده بيوضح فين ممكن نحسّن التسويق وتركيز الخدمات."
+  },
+  tags: ["Revenue analysis", "Marketing channels", "Customer behavior"],
+  image: "brew-bliss-cafe-img.png",
+  github: "https://github.com/Hazem105/portfolio/blob/main/brew-bliss-cafe.xlsx",
+  live: ""
+},
+     {
+  tool: "Excel",
   title: { en: "Sales Performance Dashboard", ar: "داشبورد أداء المبيعات" },
   summary: {
     en: "Built a sales dashboard in Excel from a table of 2,000 orders: 9 PivotTables, a PivotChart for each, and 10 KPI formulas. Total sales reached 11.83M; Assiut was the top region (2.53M, 21.4%), Monitor the top product, Sara the top sales rep, and March the best month.",
