@@ -24,6 +24,18 @@ window.SITE = {
     { name: "Power BI", use: { en: "Data models, DAX, interactive reports", ar: "نماذج بيانات وDAX وتقارير تفاعلية" } }
   ],
   projects: [
+     {
+  tool: "Excel",
+  title: { en: "Sales vs Target and YoY Analysis", ar: "تحليل المبيعات مقابل التارجت والنمو السنوي" },
+  summary: {
+    en: "Linked the data tables in Excel's Power Pivot data model and wrote DAX measures for total target, achievement %, sales ignoring the region filter, sales for the same period last year, and year-over-year difference and growth %.",
+    ar: "ربطت جداول البيانات في Power Pivot جوه Excel وكتبت معادلات DAX للتارجت الكلي ونسبة التحقيق، والمبيعات من غير فلتر المنطقة، ومبيعات نفس الفترة السنة اللي فاتت، والفرق ونسبة النمو السنوي."
+  },
+  tags: ["Power Pivot", "DAX", "Data model", "YoY"],
+  image: "power-pivot-img.png",
+  github: "https://github.com/Hazem105/portfolio/blob/main/power-pivot.xlsx",
+  live: ""
+},
     {
       tool: "Excel",
       title: { en: "Sales Dashboard", ar: "داشبورد المبيعات" },
