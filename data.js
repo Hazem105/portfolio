@@ -32,8 +32,7 @@ window.SITE = {
         ar: "نضفت بيانات مبيعات وجهزتها، وعملت منها Pivot tables وPivot charts، وجمعتهم في داشبورد للمبيعات."
       },
       tags: ["Pivot tables", "Pivot charts", "Dashboard"],
-      image: "sales-dashboard-img.png", github: "", live: ""
-    },
+image: "sales-dashboard-img.png", github: "https://github.com/Hazem105/portfolio/blob/main/sales-dashboard.xlsx", live: ""    },
     {
       tool: "Excel",
       title: { en: "Sales Data Cleaning", ar: "تنظيف بيانات المبيعات" },
