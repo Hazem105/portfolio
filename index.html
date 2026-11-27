@@ -183,6 +183,7 @@ footer{padding:28px 0 44px;color:var(--muted);font-size:.85rem;border-top:1px so
     if(c.linkedin) items.push(["LinkedIn",c.linkedin,true]);
     if(c.github) items.push(["GitHub",c.github,true]);
     if(c.whatsapp) items.push(["WhatsApp","https://wa.me/"+String(c.whatsapp).replace(/\D/g,""),true]);
+    if(c.telegram) items.push(["Telegram", /^https?:\/\//.test(c.telegram) ? c.telegram : "https://t.me/"+String(c.telegram).replace(/^@/,""), true]);
     if(!items.length) cl.appendChild(el("li","empty",u.noc));
     items.forEach(function(i){var li=el("li"); li.appendChild(link(i[1],i[0],i[2])); cl.appendChild(li)});
 
