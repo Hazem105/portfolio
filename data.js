@@ -57,7 +57,7 @@ window.SITE = {
   },
   tags: ["Dashboard", "Revenue analysis", "Conversions"],
   image: "fixgo-img.png",
-  github: "https://github.com/Hazem105/portfolio/blob/main/fixgo.xlsx",
+  github: "https://github.com/Hazem105/portfolio/blob/main/Fixgo.xlsx",
   live: ""
 },
      {
