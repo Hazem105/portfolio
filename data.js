@@ -69,7 +69,7 @@ window.SITE = {
   },
   tags: ["Revenue analysis", "Marketing channels", "Customer behavior"],
   image: "brew-bliss-cafe-img.png",
-  github: "https://github.com/Hazem105/portfolio/blob/main/brew-bliss-cafe.xlsx",
+  github: "https://github.com/Hazem105/portfolio/blob/main/Brew%20Bliss%20Caf%C3%A9.xlsx",
   live: ""
 },
      {
