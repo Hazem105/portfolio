@@ -151,5 +151,4 @@ image: "sales-dashboard-img.png", github: "https://github.com/Hazem105/portfolio
       image: "", github: "", live: ""
     }
   ],
-  contact: { email: "ha9158392@gmail.com", github: "https://github.com/Hazem105", linkedin: "", whatsapp: "201554954513" }
-};
+contact: { email: "ha9158392@gmail.com", github: "https://github.com/Hazem105", linkedin: "https://www.linkedin.com/in/hazem-ali-212bb039a/", whatsapp: "201554954513", telegram: "@ha9158392" }};
